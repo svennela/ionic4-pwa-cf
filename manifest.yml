@@ -1,0 +1,8 @@
+---
+applications:
+- name: ionic4-pwa-cf
+  path: ./myPWA/www
+  memory: 64M
+  disk: 200M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  
